@@ -19,7 +19,7 @@
   padding: 20px 100px;
   background: transparent;
   display: flex;
-  justify-content: none;
+  justify-content: space-between;
   align-items: center;
   z-index: 100;
 }
@@ -35,7 +35,8 @@
 
 .logo1 {
   font-size: 32px;
-  color: #B22234; /* Old Glory Red */
+  color: #B22234;
+  /* Old Glory Red */
   text-decoration: none;
   font-weight: 700;
   margin-left: 5px;
@@ -43,7 +44,8 @@
 
 .logo2 {
   font-size: 32px;
-  color: #3C3B6E; /* Old Glory Blue */
+  color: #3C3B6E;
+  /* Old Glory Blue */
   text-decoration: none;
   font-weight: 700;
 }
