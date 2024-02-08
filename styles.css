@@ -1,14 +1,13 @@
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
+document.querySelectorAll('#map path').forEach(state => {
+    state.addEventListener('mouseover', function() {
+        // Display poll results
+        // This assumes you have a function getPollResults that takes a state id and returns poll results
+        const pollResults = getPollResults(this.id);
+        this.setAttribute('title', pollResults);
+    });
 
-nav ul {
-    display: flex;
-    gap: 20px;
-}
-
-#map path:hover {
-    fill: blue;
-}
+    state.addEventListener('click', function() {
+        // Redirect to state page
+        window.location.href = `https://yourwebsite.com/${this.id}`;
+    });
+});
