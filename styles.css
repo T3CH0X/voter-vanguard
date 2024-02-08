@@ -1,63 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 20px 100px;
-    background: #000080;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  background: #000080;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
 }
 
 .navbar a {
-    position: relative;
-    font-size: 18px;
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 40px;
+  position: relative;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 40px;
 }
 
 .logo {
-    font-size: 32px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
+  font-size: 32px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .navbar a::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background: #fff;
-    transition: .3s;
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  transition: .3s;
 }
 
-.navbar a:hover:before {
-    width: 100%;
+.navbar a:hover::before {
+  width: 100%;
 }
 
-document.querySelectorAll('#map path').forEach(state => {
+document.querySelectorAll('#map path').forEach(state=> {
     state.addEventListener('mouseover', function() {
         // Display poll results
         // This assumes you have a function getPollResults that takes a state id and returns poll results
-        const pollResults = getPollResults(this.id);
+        const pollResults=getPollResults(this.id);
         this.setAttribute('title', pollResults);
-    });
+      }
+
+    );
 
     state.addEventListener('click', function() {
         // Redirect to state page
-        window.location.href = `https://yourwebsite.com/${this.id}`;
-    });
-});
+        window.location.href=`https: //yourwebsite.com/${this.id}`;
+      }
+
+    );
+  }
+
+);
+
 svg {
-    /* Adjust these values according to the size of your SVG */
-    width: 50%;
-    height: auto;
+  /* Adjust these values according to the size of your SVG */
+  width: 50%;
+  height: auto;
 }
 }
