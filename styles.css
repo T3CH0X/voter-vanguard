@@ -40,6 +40,13 @@ svg {
     margin-left: 40px;
 }
 
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
 .navbar a::before {
     content: '';
     position: absolute;
