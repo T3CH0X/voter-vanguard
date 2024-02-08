@@ -11,3 +11,8 @@ document.querySelectorAll('#map path').forEach(state => {
         window.location.href = `https://yourwebsite.com/${this.id}`;
     });
 });
+svg {
+    /* Adjust these values according to the size of your SVG */
+    width: 50%;
+    height: auto;
+}
