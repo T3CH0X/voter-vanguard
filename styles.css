@@ -64,8 +64,8 @@
   margin: 0 auto; /* This will center the box horizontally */
   display: flex;
   flex-direction: column;
-  height: 745px; /* Adjust as needed */
-  width: 965px; /* Adjust as needed */
+  height: 1050px; /* Adjust as needed */
+  width: 1160px; /* Adjust as needed */
   border: 1px solid #333333;
 }
 
@@ -97,7 +97,7 @@
 }
 
 .candidate img {
-  width: 200px;
+  width: auto;
   height: 250px;
 }
 
