@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+.body {
+  background-color: #F9F9F9;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +17,9 @@
   left: 0;
   width: 100%;
   padding: 20px 100px;
-  background: #000080;
+  background: transparent;
   display: flex;
-  justify-content: space-between;
+  justify-content: none;
   align-items: center;
   z-index: 100;
 }
@@ -23,15 +27,23 @@
 .navbar a {
   position: relative;
   font-size: 18px;
-  color: #fff;
+  color: #333333;
   font-weight: 500;
   text-decoration: none;
   margin-left: 40px;
 }
 
-.logo {
+.logo1 {
   font-size: 32px;
-  color: #fff;
+  color: #B22234; /* Old Glory Red */
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 5px;
+}
+
+.logo2 {
+  font-size: 32px;
+  color: #3C3B6E; /* Old Glory Blue */
   text-decoration: none;
   font-weight: 700;
 }
@@ -41,9 +53,9 @@
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%;
+  width: 0%;
   height: 2px;
-  background: #fff;
+  background: #333333;
   transition: .3s;
 }
 
