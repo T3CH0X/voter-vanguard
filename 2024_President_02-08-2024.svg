@@ -15,12 +15,12 @@ In this example, Kansas, Montana and Pennsylvania are colored blue, and Californ
 Place this code in the empty space below. */
 
 .ia, .oh, .sc, .ak, .ks, .tx {fill:#CC2F4A}
-.wi, .mi, .pa, .ga, .nv, .az {fill:##D4C4DC}
+.wi, .mi, .pa, .ga, .nv, .az {fill:#AE8BB1}
 .ut, .wy, .mt, .id, .nd, .sd, .ok, .ar, .la, .ms, .al, .tn, .ky, .in, .wv, .mo {fill:#800000}
 .wa, .or, .ca, .il, .md, .ny, .nj, .ct, .vt, .ma, .ri, .dc, .de, .hi {fill:#002B84}
 .nm, .co, .va {fill:#1666CB}
-.mn, .nh {fill:B9D7FF}
-.nc, .fl, {fill:F2B3BE}
+.mn, .nh {fill:#B9D7FF}
+.nc, .fl, {fill:#F2B3BE}
 
 
 </style>
