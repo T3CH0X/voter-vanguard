@@ -61,10 +61,11 @@
 
 
 .box {
+  margin: 0 auto; /* This will center the box horizontally */
   display: flex;
   flex-direction: column;
-  height: 745x; /* adjust as needed */
-  width: 965px; /* adjust as needed */
+  height: 745px; /* Adjust as needed */
+  width: 965px; /* Adjust as needed */
   border: 1px solid #333333;
 }
 
