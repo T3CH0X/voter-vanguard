@@ -79,9 +79,12 @@
 }
 
 .box-window {
+  display: flex;
+  justify-content: center; /* This will horizontally center the content */
+  align-items: center; /* This will vertically center the content */
   flex: 40;
   overflow: auto;
-  align-items: center;
+  height: 100%; /* Ensure the box-window takes up the full height */
 }
 
 .box-footer {
