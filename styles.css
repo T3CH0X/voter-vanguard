@@ -16,3 +16,20 @@ svg {
     width: 50%;
     height: auto;
 }
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: #000080;
+    display: flex;
+    justify-content: space between;
+    align-items: center;
+    z-index: 100;
+}
+
+
+    
