@@ -17,7 +17,7 @@ Place this code in the empty space below. */
 .ia, .oh, .sc, .ak, .ks {fill:#CC2F4A}
 .wi, .mi, .pa, .ga, .nv, .az {fill:##D4C4DC}
 .ut, .wy, .mt, .id, .nd, .sd, .ok, .ar, .la, .ms, .al, .tn, .ky, .in, .wv {fill:#800000}
-.wa, .or, .ca, .il, .md, .ny, .nj, .ct, .vt, .ma, .ri, .dc {fill:#002B84}
+.wa, .or, .ca, .il, .md, .ny, .nj, .ct, .vt, .ma, .ri, .dc, .de {fill:#002B84}
 .nm, .co, .va {fill:#1666CB}
 
 
